@@ -1,12 +1,24 @@
 {
   "name": "toapi",
   "version": "1.0.1",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karansehgal15/todoapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Karansehgal15/todoapi/issues"
+  },
+  "homepage": "https://github.com/Karansehgal15/todoapi#readme",
+  "description": ""
 }

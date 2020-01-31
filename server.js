@@ -1,7 +1,6 @@
 xp=require('express')
 srvr=xp()
 todoRoute=require('./todos/todos')
-
 srvr.use(xp.json());
 srvr.use(xp.urlencoded({extended:true}));
 srvr.use('/todoList',todoRoute);
