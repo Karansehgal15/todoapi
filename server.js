@@ -1,6 +1,6 @@
 xp=require('express')
 srvr=xp()
-const port=process.env.port || 2121;
+const port=process.env.PORT || 2121;
 todoRoute=require('./todos/todos')
 srvr.use(xp.json());
 srvr.use(xp.urlencoded({extended:true}));
